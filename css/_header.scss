@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+$primaryColor: rgb(56, 43, 43);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+
+}
+
+.myTable{
+    height: 60vh;
+    overflow: scroll;
+    padding-bottom: 20px;
+}
+
+
+
+.form-logo{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+    
+    margin-top: -50px;
+}
+
+.form-custom{
+    margin-top: 60px;
+    border: 1px solid black;
+    background-color: #7c7474;
+    border-radius: 10px;
+
+    button{
+        width: 120px;
+    }
+}
+
+.container-fluid{
+    #time{
+        float: right;
+    }
+    h3{
+        font-family: 'Lobster', cursive;
+    }
+    img{
+        width: 80px;
+        height: 80px;
+    }
+}
+
+.navbar{
+    background-color: $primaryColor;
+}
+
